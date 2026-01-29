@@ -1,8 +1,8 @@
-# Econ PhD Code Camp
+# Data Management Intro
 
-This repo contains all the materials for the Econ PhD Code Camp, prepared by [Matt Delventhal](mailto:delventh@usc.edu). In the `lesson` folder you will find the lessons, consisting of notebooks with some instructions and starter code. Each lesson has materials in Python, and most lessons also have equivalent materials in R, Matlab, and/or Julia.
+This repo contains materials for some simple exercises to introduce data management. They have been prepared by [Matt Delventhal](mailto:delventh@usc.edu).
 
-To get ready to use these lessons you should follow the instructions in the [Installation Notes](#Install-Notes) below.
+Please see the [Installation Notes](#Install-Notes) below.
 
 ***NEW:*** [Git notes](#Git-notes)
 
@@ -14,11 +14,6 @@ You should complete at least the first 4 of the following steps to make sure you
  2. [Clone this repo to your local machine](#Clone-this-repository)
  3. [Install Python](#Install-Python)
  4. [Install basic Python packages](#Install-basic-Python-packages)
- 5. [Install additional languages](#Installing-additional-languages) *(optional, recommended)*
-       - [MATLAB](#Install-MATLAB)
-       - [R](#Install-R)
-       - [Julia](#Install-Julia)
-       - [MATLAB](#Install-MATLAB)
 
 ## Install Git
 
@@ -156,110 +151,6 @@ The entire bootcamp can be completed using only Python. But your experience may 
 
 
 
-### Install MATLAB
-
-#### For Windows, Mac, or other:
-
-  1. Visit this page: [https://www.mathworks.com/academia/tah-portal/university-of-southern-california-623588.html](https://www.mathworks.com/academia/tah-portal/university-of-southern-california-623588.html)
-
-  2. Sign in to your USC account.
-
-  3. Download the Matlab installer which is appropriate for your local machine.
-
-  4. Run the installer and follow the instructions to install the software.
-
-  5. In case you run into any difficulty with steps 1-4, you can check the instructions and general information on this page: [https://software.usc.edu/matlab/](https://software.usc.edu/matlab/)
-
-#### Make R Kernel Available to Jupyter
-  1. Open a command-line interface.
-
-  2. Run the following commands from the command line:
-
-  ```python -m pip install jupyter-matlab-proxy
-  install-matlab-kernelspec
-  ```
-
-#### Check installation
-
-   1. Open `lesson/helloworld/matlab/Helloworld_matlab.ipynb`.
-
-   2. Ensure that the notebook is running with a Matlab kernel.
-
-   3. Run the starter code cells. If you see "Hello world!!!" output and don't get errors, this indicates that the Matlab installation and the link with Jupyter were both successful.
-
-### Install R
-
-#### For Windows
-
- 1. Visit [https://cran.r-project.org/bin/windows/base/](https://cran.r-project.org/bin/windows/base/) and download the latest Windows installer. As of last edit, this is version [4.5.0](https://cran.r-project.org/bin/windows/base/R-4.5.0-win.exe).
-
- 2. Complete installation.
-
-#### For Mac
-
- 1. Visit [https://cran.r-project.org/bin/macosx/](https://cran.r-project.org/bin/macosx/) and download the latest Mac installer. As of last edit, this is version [4.5.0](https://cran.r-project.org/bin/macosx/big-sur-arm64/base/R-4.5.0-arm64.pkg).
-
- 2. Complete the installation.
-
-#### For Linux
-
- 1. Visit [https://cran.r-project.org/bin/linux/](https://cran.r-project.org/bin/linux/).
-
- 2. Select the page corresponding to your distribution of Linux and follow the instructions to complete the installation.
-
-#### Make R Kernel Available to Jupyter
-
- 1. Open the R Gui. You should see a command prompt.
-
- 2. Enter these two commands into the R prompt:
-
-    ```
-    install.packages('IRkernel')
-    IRkernel::installspec()
-    ```
-
-#### Check installation
-
-1. Open `lesson/helloworld/R/Helloworld_R.ipynb`.
-
-2. Ensure that the notebook is running with an R kernel.
-
-3. Run the starter code cells. If you see "Hello world!!!" output and don't get errors, this indicates that the R installation and the link with Jupyter were both successful.
-
-### Install Julia
-
-
-#### For Windows
-
- 1. Following the instructions here, [https://julialang.org/install/](https://julialang.org/install/), install Juliaup from the Microsoft store (as of last edit, [here](https://apps.microsoft.com/detail/9njnww8pvkmn).
-
-#### For Mac
-
- 1. Following the instructions here, [https://julialang.org/install/](https://julialang.org/install/), install Juliaup by entering the following from the command line: `curl -fsSL https://install.julialang.org | sh`
-
-#### For Linux
-
- 1. Following the instructions here, [https://julialang.org/install/](https://julialang.org/install/), install Juliaup by entering the following from the command line: `curl -fsSL https://install.julialang.org | sh`
-
-#### Make Julia Kernel Available to Jupyter
-
- 1. Open the Julia prompt.
-
- 2. Enter the following two commands:
-
-    ```
-    using Pkg
-    Pkg.add("IJulia")
-    ```
-
-#### Check installation
-
-1. Open `lesson/helloworld/Julia/Helloworld_Julia.ipynb`.
-
-2. Ensure that the notebook is running with a Julia kernel.
-
-3. Run the starter code cells. If you see "Hello world!!!" output and don't get errors, this indicates that the Julia installation and the link with Jupyter were both successful.
-
 # Git notes
 
 Some notes on managing your class materials with Git.
@@ -326,3 +217,4 @@ If there are updates from both sides, Git will probably be able to resolve them 
 
 
      
+
