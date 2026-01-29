@@ -4,7 +4,7 @@ This repo contains materials for some simple exercises to introduce data managem
 
 Please see the [Installation Notes](#Install-Notes) below.
 
-***NEW:*** [Git notes](#Git-notes)
+For tips on Git usage, you may consult the [Git notes](#Git-notes).
 
 # Install notes
 
@@ -214,8 +214,3 @@ git merge main
 This will merge new updates from main into your current branch.
 
 If there are updates from both sides, Git will probably be able to resolve them automatically. Occasionally it fails, especially with Jupyter notebooks. If you have any issue, let your instructor know and they'll help you out!
-
-
-     
-
-

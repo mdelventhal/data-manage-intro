@@ -1,5 +1,5 @@
 ## Python package requirements for the Econ Coding Bootcamp
-#  If Python is already installed, entering `pip install -r requirements.txt` from the command line will ensure 
+#  If Python is already installed, entering `pip install -r requirements.txt` from the command line will ensure
 #    that these basic requirements are installed.
 
 # Lines that start with a hash # are "commented out" and will not lead to any installations
@@ -11,10 +11,13 @@ numpy
 ## Pandas is a versatile data manipulation package. A large part data manipulation capability of Stata can be replicated with Pandas
 pandas
 
+## PyArrow is a package which allows reading and writing of parquet files. Another option would be fastparquet
+pyarrow
+
 ## Matplotlib is a visualization package. It was originally inspired by MatLab's plotting tools
 matplotlib
 
-## Jupyterlab will install the set of packages that will allow us to use Jupyter notebooks 
+## Jupyterlab will install the set of packages that will allow us to use Jupyter notebooks
 #    and the browser-based Interactive Development Environment (IDE) called Jupyterlab.
 #  Jupyter notebooks run Python code natively, but we can extend them to also run code for R, Julia, and other languages.
 jupyterlab
