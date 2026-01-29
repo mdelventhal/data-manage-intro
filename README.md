@@ -64,15 +64,15 @@ If this returns the installed version of Git and does not return an error, this 
  2. Enter the following command:
 
     ```
-    git clone https://github.com/mdelventhal/econphd-codecamp
+    git clone https://github.com/mdelventhal/data-manage-intro
     ```
 
-    This should download the repo and install it in a subfolder named `econphd-codecamp` of your current directory.
+    This should download the repo and install it in a subfolder named `data-manage-intro` of your current directory.
 
  4. Enter the following command:
 
     ```
-    cd econphd-codecamp
+    cd data-manage-intro
     ```
 
     This will navigate to the folder containing the repo.
@@ -217,4 +217,5 @@ If there are updates from both sides, Git will probably be able to resolve them 
 
 
      
+
 
